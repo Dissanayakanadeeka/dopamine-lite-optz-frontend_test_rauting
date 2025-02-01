@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dopamineliteoptz-dev-d9aa5-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423445599:role/amplify-dopamineliteoptz-dev-d9aa5-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423445599:role/amplify-dopamineliteoptz-dev-d9aa5-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dopamineliteoptz-dev-d9aa5-deployment",
+      "UnauthRoleName": "amplify-dopamineliteoptz-dev-d9aa5-unauthRole",
+      "StackName": "amplify-dopamineliteoptz-dev-d9aa5",
+      "StackId": "arn:aws:cloudformation:us-east-1:637423445599:stack/amplify-dopamineliteoptz-dev-d9aa5/ffd27790-c2e4-11ef-8018-0afff0a67099",
+      "AmplifyAppId": "dk6hst1dg1lz2"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dk6hst1dg1lz2",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "dopamineliteoptz8abc3b3a": {}
+      }
+    }
+  }
+}
