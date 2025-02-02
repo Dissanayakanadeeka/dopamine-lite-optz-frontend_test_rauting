@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1738415815126" clover="3.2.0">
-  <project timestamp="1738415815127" name="All files">
-    <metrics statements="884" coveredstatements="0" conditionals="316" coveredconditionals="0" methods="341" coveredmethods="0" elements="1541" coveredelements="0" complexity="0" loc="884" ncloc="884" packages="12" files="63" classes="63"/>
+<coverage generated="1738505037637" clover="3.2.0">
+  <project timestamp="1738505037638" name="All files">
+    <metrics statements="885" coveredstatements="73" conditionals="316" coveredconditionals="6" methods="343" coveredmethods="7" elements="1544" coveredelements="86" complexity="0" loc="885" ncloc="885" packages="12" files="63" classes="63"/>
     <package name="src">
-      <metrics statements="22" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <metrics statements="22" coveredstatements="11" conditionals="10" coveredconditionals="3" methods="4" coveredmethods="4"/>
       <file name="App.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\App.tsx">
-        <metrics statements="19" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
+        <metrics statements="19" coveredstatements="11" conditionals="10" coveredconditionals="3" methods="4" coveredmethods="4"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
         <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
@@ -19,12 +19,12 @@
         <line num="42" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="62" count="0" type="stmt"/>
-        <line num="75" count="0" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
       </file>
       <file name="aws-exports.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\aws-exports.ts">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -37,14 +37,14 @@
       </file>
     </package>
     <package name="src.assets.static">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="belongingLessons.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\assets\static\belongingLessons.ts">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components">
-      <metrics statements="173" coveredstatements="0" conditionals="75" coveredconditionals="0" methods="81" coveredmethods="0"/>
+      <metrics statements="173" coveredstatements="3" conditionals="75" coveredconditionals="0" methods="81" coveredmethods="0"/>
       <file name="Footer.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\Footer.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
@@ -54,10 +54,10 @@
         <line num="8" count="0" type="stmt"/>
       </file>
       <file name="Navbar.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\Navbar.tsx">
-        <metrics statements="21" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
-        <line num="24" count="0" type="stmt"/>
+        <metrics statements="21" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="24" count="1" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
@@ -90,8 +90,8 @@
         <line num="14" count="0" type="stmt"/>
       </file>
       <file name="SideDrawer.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\SideDrawer.tsx">
-        <metrics statements="32" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="13" coveredmethods="0"/>
-        <line num="33" count="0" type="stmt"/>
+        <metrics statements="32" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="33" count="1" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
@@ -241,7 +241,7 @@
       </file>
     </package>
     <package name="src.components.ui">
-      <metrics statements="158" coveredstatements="0" conditionals="102" coveredconditionals="0" methods="47" coveredmethods="0"/>
+      <metrics statements="159" coveredstatements="15" conditionals="102" coveredconditionals="0" methods="49" coveredmethods="0"/>
       <file name="AchievementHighlights.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\AchievementHighlights.tsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="8" count="0" type="stmt"/>
@@ -253,8 +253,8 @@
         <line num="28" count="0" type="stmt"/>
       </file>
       <file name="NotesCard.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\NotesCard.tsx">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
+        <metrics statements="9" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -265,8 +265,8 @@
         <line num="17" count="0" type="stmt"/>
       </file>
       <file name="TelegramGroupCard.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\TelegramGroupCard.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
       </file>
@@ -287,8 +287,8 @@
         <line num="68" count="0" type="stmt"/>
       </file>
       <file name="button.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\button.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="17" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
       </file>
@@ -299,8 +299,8 @@
         <line num="13" count="0" type="stmt"/>
       </file>
       <file name="close-button.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\close-button.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="8" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
       </file>
       <file name="color-mode.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\color-mode.tsx">
@@ -336,21 +336,18 @@
         <line num="62" count="0" type="stmt"/>
       </file>
       <file name="drawer.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\drawer.tsx">
-        <metrics statements="14" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="15" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
+        <metrics statements="11" coveredstatements="8" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
       </file>
       <file name="field.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\field.tsx">
         <metrics statements="3" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -447,17 +444,21 @@
         <line num="72" count="0" type="stmt"/>
       </file>
       <file name="tag.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\tag.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="11" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="1" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
       </file>
       <file name="toaster.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\toaster.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <metrics statements="8" coveredstatements="2" conditionals="10" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
       </file>
       <file name="tooltip.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\components\ui\tooltip.tsx">
         <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -468,11 +469,11 @@
       </file>
     </package>
     <package name="src.hooks">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="redux.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\hooks\redux.ts">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.old_components">
@@ -527,10 +528,10 @@
       </file>
     </package>
     <package name="src.pages">
-      <metrics statements="362" coveredstatements="0" conditionals="56" coveredconditionals="0" methods="137" coveredmethods="0"/>
+      <metrics statements="362" coveredstatements="25" conditionals="56" coveredconditionals="3" methods="137" coveredmethods="2"/>
       <file name="AdminAccessGroupsPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\AdminAccessGroupsPage.tsx">
-        <metrics statements="20" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="9" count="0" type="stmt"/>
+        <metrics statements="20" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
@@ -552,9 +553,9 @@
         <line num="82" count="0" type="stmt"/>
       </file>
       <file name="AdminClassesPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\AdminClassesPage.tsx">
-        <metrics statements="47" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="14" coveredmethods="0"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
+        <metrics statements="47" coveredstatements="2" conditionals="10" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
@@ -602,8 +603,8 @@
         <line num="215" count="0" type="stmt"/>
       </file>
       <file name="AdminCreateAccessGroup.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\AdminCreateAccessGroup.tsx">
-        <metrics statements="41" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="20" coveredmethods="0"/>
-        <line num="20" count="0" type="stmt"/>
+        <metrics statements="41" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="20" coveredmethods="0"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
@@ -646,8 +647,8 @@
         <line num="199" count="0" type="stmt"/>
       </file>
       <file name="AdminCreateLessonPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\AdminCreateLessonPage.tsx">
-        <metrics statements="31" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
-        <line num="27" count="0" type="stmt"/>
+        <metrics statements="31" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="27" count="1" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
@@ -680,8 +681,8 @@
         <line num="170" count="0" type="stmt"/>
       </file>
       <file name="AdminEditAccessGroups.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\AdminEditAccessGroups.tsx">
-        <metrics statements="49" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="22" coveredmethods="0"/>
-        <line num="20" count="0" type="stmt"/>
+        <metrics statements="49" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="22" coveredmethods="0"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
@@ -732,8 +733,8 @@
         <line num="215" count="0" type="stmt"/>
       </file>
       <file name="AdminEditLessonPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\AdminEditLessonPage.tsx">
-        <metrics statements="29" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
+        <metrics statements="29" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
@@ -764,17 +765,17 @@
         <line num="111" count="0" type="stmt"/>
       </file>
       <file name="AdminHome.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\AdminHome.tsx">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="51" count="0" type="stmt"/>
       </file>
       <file name="AdminLessonsPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\AdminLessonsPage.tsx">
-        <metrics statements="51" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="0"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
+        <metrics statements="51" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="17" coveredmethods="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
@@ -826,10 +827,10 @@
         <line num="282" count="0" type="stmt"/>
       </file>
       <file name="ClasesPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\ClasesPage.tsx">
-        <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
+        <metrics statements="13" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
@@ -842,8 +843,8 @@
         <line num="67" count="0" type="stmt"/>
       </file>
       <file name="ClassLessonsPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\ClassLessonsPage.tsx">
-        <metrics statements="26" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="27" count="0" type="stmt"/>
+        <metrics statements="26" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="27" count="1" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
@@ -871,8 +872,8 @@
         <line num="118" count="0" type="stmt"/>
       </file>
       <file name="ClassNotesPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\ClassNotesPage.tsx">
-        <metrics statements="18" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="23" count="0" type="stmt"/>
+        <metrics statements="18" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="23" count="1" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
@@ -892,16 +893,16 @@
         <line num="127" count="0" type="stmt"/>
       </file>
       <file name="HomePage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\HomePage.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="19" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="102" count="0" type="stmt"/>
       </file>
       <file name="LessionPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\LessionPage.tsx">
-        <metrics statements="20" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
+        <metrics statements="20" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
@@ -922,29 +923,29 @@
         <line num="82" count="0" type="stmt"/>
       </file>
       <file name="LoginPage.tsx" path="E:\projects_f\dopamine-lite-optz-frontend\src\pages\LoginPage.tsx">
-        <metrics statements="8" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <metrics statements="8" coveredstatements="7" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="2"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.services">
-      <metrics statements="112" coveredstatements="0" conditionals="39" coveredconditionals="0" methods="55" coveredmethods="0"/>
+      <metrics statements="112" coveredstatements="11" conditionals="39" coveredconditionals="0" methods="55" coveredmethods="0"/>
       <file name="access-groupes.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\services\access-groupes.ts">
-        <metrics statements="24" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="13" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <metrics statements="24" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
         <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -963,11 +964,11 @@
         <line num="70" count="0" type="stmt"/>
       </file>
       <file name="api.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\services\api.ts">
-        <metrics statements="11" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="11" coveredstatements="2" conditionals="5" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -977,16 +978,16 @@
         <line num="31" count="0" type="stmt"/>
       </file>
       <file name="classes.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\services\classes.ts">
-        <metrics statements="19" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="11" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+        <metrics statements="19" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
         <line num="51" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
         <line num="63" count="0" type="stmt"/>
         <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -999,15 +1000,15 @@
         <line num="98" count="0" type="stmt"/>
       </file>
       <file name="lessons.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\services\lessons.ts">
-        <metrics statements="28" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="14" coveredmethods="0"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
+        <metrics statements="28" coveredstatements="3" conditionals="12" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
         <line num="52" count="0" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
         <line num="74" count="0" type="stmt"/>
         <line num="75" count="0" type="stmt"/>
         <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -1071,25 +1072,25 @@
       </file>
     </package>
     <package name="src.state.slices">
-      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="userSlice.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\state\slices\userSlice.ts">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.themes">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="amplifytheme.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\themes\amplifytheme.ts">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="colors.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\themes\colors.ts">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
       <file name="font.ts" path="E:\projects_f\dopamine-lite-optz-frontend\src\themes\font.ts">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>

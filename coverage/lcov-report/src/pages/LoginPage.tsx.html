@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">72.72% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/11</span>
+                <span class='fraction'>8/11</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/6</span>
+                <span class='fraction'>3/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>2/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">87.5% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/8</span>
+                <span class='fraction'>7/8</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -147,20 +147,20 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -220,20 +220,20 @@ import { Box } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 &nbsp;
 &nbsp;
-const MotionBox = <span class="cstat-no" title="statement not covered" >motion(Box);</span>
+const MotionBox = motion(Box);
 &nbsp;
-export default function <span class="fstat-no" title="function not covered" >LoginPage(</span>) {
-  const user = <span class="cstat-no" title="statement not covered" >useAppSelector(<span class="fstat-no" title="function not covered" >(s</span>tate) =&gt; <span class="cstat-no" title="statement not covered" >state.user)</span>;</span>
-  const [isInteracting, setIsInteracting] = <span class="cstat-no" title="statement not covered" >useState(false);</span>
+export default function LoginPage() {
+  const user = useAppSelector((state) =&gt; state.user);
+  const [isInteracting, setIsInteracting] = useState(false);
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  if (user.isAuthenticated) {</span>
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (user.isAuthenticated) {
 <span class="cstat-no" title="statement not covered" >    return &lt;Navigate to="/" replace /&gt;;</span>
   }
 &nbsp;
-  const handleInteractionStart = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >setIsInteracting(true);</span></span>
-  const handleInteractionEnd = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >setIsInteracting(false);</span></span>
+  const handleInteractionStart = <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >setIsInteracting(true);</span>
+  const handleInteractionEnd = <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >setIsInteracting(false);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  return (</span>
+  return (
     &lt;&gt;
       &lt;div className="login-page"&gt;
       &lt;div className="login-overlay"&gt;&lt;/div&gt;
@@ -255,12 +255,12 @@ export default function <span class="fstat-no" title="function not covered" >Log
               animate={
                 !isInteracting
                   ? { y: [0, -12, 0] } 
-                  : { y: 0 } 
+                  : <span class="branch-1 cbranch-no" title="branch not covered" >{ y: 0 } </span>
               }
               transition={{
                 duration: 2,
                 ease: "easeInOut",
-                repeat: !isInteracting ? Infinity : 0, 
+                repeat: !isInteracting ? Infinity : <span class="branch-1 cbranch-no" title="branch not covered" >0, </span>
                 repeatType: "loop",
               }}
               onMouseEnter={handleInteractionStart}
@@ -289,7 +289,7 @@ export default function <span class="fstat-no" title="function not covered" >Log
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2025-02-01T13:16:53.702Z
+                at 2025-02-02T14:03:56.358Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

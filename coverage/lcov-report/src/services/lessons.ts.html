@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">9.37% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/32</span>
+                <span class='fraction'>3/32</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">10.71% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/28</span>
+                <span class='fraction'>3/28</span>
             </div>
         
             
@@ -182,7 +182,7 @@
 <a name='L117'></a><a href='#L117'>117</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -220,11 +220,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -234,9 +230,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -250,7 +243,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -298,7 +298,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Lesson, CreateLessonDto } from '../types/lesson.types';
 import { api } from './api';
 &nbsp;
-export const dummyLessons: Lesson[] = <span class="cstat-no" title="statement not covered" >[</span>
+export const dummyLessons: Lesson[] = [
   {
     id: "lesson-001",
     classId: "class-001",
@@ -336,7 +336,7 @@ export const dummyLessons: Lesson[] = <span class="cstat-no" title="statement no
   },
 ];
 &nbsp;
-export const lessonsService = <span class="cstat-no" title="statement not covered" >{</span>
+export const lessonsService = {
   getLessonsByClassId: <span class="fstat-no" title="function not covered" >(c</span>lassId: string) =&gt; {
 <span class="cstat-no" title="statement not covered" >    return api.request&lt;Lesson[]&gt;(`/classes/${classId}/lessons`);</span>
   },
@@ -366,7 +366,7 @@ export const lessonsService = <span class="cstat-no" title="statement not covere
   },
 };
 &nbsp;
-export const lessonsService_dev = <span class="cstat-no" title="statement not covered" >{</span>
+export const lessonsService_dev = {
   getLessonsByClassId: <span class="fstat-no" title="function not covered" >(c</span>lassId: string) =&gt; {
     const lessons = <span class="cstat-no" title="statement not covered" >dummyLessons.filter(<span class="fstat-no" title="function not covered" >(l</span>) =&gt; <span class="cstat-no" title="statement not covered" >l.classId === classId)</span>;</span>
 <span class="cstat-no" title="statement not covered" >    return Promise.resolve(lessons);</span>
@@ -418,7 +418,7 @@ export const lessonsService_dev = <span class="cstat-no" title="statement not co
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2025-02-01T13:16:53.702Z
+                at 2025-02-02T14:03:56.358Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen, act } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import configureMockStore from "redux-mock-store"; // Correct import
@@ -11,6 +11,14 @@ jest.mock("@aws-amplify/auth", () => ({
   fetchAuthSession: jest.fn(),
 }));
 
+jest.mock('@chakra-ui/react', () => ({
+  Box: 'div',
+  Spinner: 'div',
+  createStandaloneToast: jest.fn(() => ({
+    toast: jest.fn(),
+  })),
+}));
+
 // Create a mock Redux store
 const mockStore = configureMockStore([]);
 const initialState = { user: { isAuthenticated: false, isLoading: false } };
@@ -21,14 +29,15 @@ test("redirects to LoginPage if user is not authenticated", async () => {
 
   const store = mockStore(initialState);
 
-  render(
-    <Provider store={store}>
-      <MemoryRouter initialEntries={["/"]}>
+  await act(async () => {
+    render(
+      <Provider store={store}>
         <App />
-      </MemoryRouter>
-    </Provider>
-  );
+      </Provider>
+    );
+  });
 
   // Check if login page text appears
-  expect(screen.getByText(/login/i)).toBeInTheDocument();
+  expect(screen.getByText(/Dopamine Lite/i)).toBeInTheDocument();
+  expect(screen.getByText(/Your journey to mastering biology starts here/i)).toBeInTheDocument();
 });
